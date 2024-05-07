@@ -5,7 +5,7 @@
                 Temporada {{ $season->number }}
 
                 <span class="badge bg-secondary">
-                    {{ $seasons->episodes->count() }}
+                    {{ $season->episodes->count() }}
                 </span>
             </li>
         @endforeach

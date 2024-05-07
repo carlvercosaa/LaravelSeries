@@ -9,4 +9,4 @@ Route::get('/', function () {
 });
 
 Route::resource('/series', SeriesController::class)->except('show');
-Route::get('/series/{serie}/seasons', [SeasonsController::class, 'index'])->name('seasons.index');
+Route::get('/series/{series}/seasons', [SeasonsController::class, 'index'])->name('seasons.index');
