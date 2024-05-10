@@ -22,12 +22,12 @@
             </div>
 
             <div class="col-2">
-                <label for="EpisodesPerSeason" class="form-label">Eps / Temporada:</label>
+                <label for="episodesPerSeason" class="form-label">Eps / Temporada:</label>
                 <input type="text"
-                       id="EpisodesPerSeason"
-                       name="EpisodesPerSeason"
+                       id="episodesPerSeason"
+                       name="episodesPerSeason"
                        class="form-control"
-                       value="{{ old('EpisodesPerSeason') }}"@>
+                       value="{{ old('episodesPerSeason') }}"@>
             </div>
         </div>
         <button type="submit" class="btn btn-primary">Adicionar</button>
